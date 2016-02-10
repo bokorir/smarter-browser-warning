@@ -1,0 +1,141 @@
+.sbw-overflow-hidden {
+  overflow: hidden;
+}
+
+.sbw-clearfix:before,
+.sbw-clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.sbw-clearfix:after {
+  clear: both;
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .sbw-clearfix-xs:before,
+  .sbw-clearfix-xs:after {
+    content: " ";
+    display: table;
+  }
+
+  .sbw-clearfix-xs:after {
+    clear: both;
+  }
+}
+
+.sbw-browser-support-modal {
+  height: 100%;
+  width: 100%;
+  padding: 0 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 1100;
+}
+
+.sbw-browser-support-modal .sbw-container {
+  max-width: 1000px;
+  padding: 20px 100px 40px;
+  margin: 80px auto;
+  position: relative;
+  background: #fff;
+  border-collapse: collapse;
+  box-shadow: 0 0 5px 1px rgba(0,0,0,0.8);
+  text-align: center;
+  z-index: 2;
+}
+
+.sbw-browser-support-modal .sbw-container .sbw-modal-title {
+  font-weight: normal;
+  font-size: 36px;
+  padding: 0 0 10px;
+}
+
+.sbw-browser-support-modal .sbw-container .sbw-modal-headline {
+  font-size: 28px;
+  padding: 0 0 10px;
+}
+
+.sbw-browser-support-modal .sbw-container .sbw-browsers {
+  margin: 50px 0 40px;
+}
+
+.sbw-browser-support-modal .sbw-container .sbw-browsers .sbw-browser {
+  width: 100%;
+  padding: 10px;
+  float: left;
+  display: block;
+  position: relative;
+  cursor: pointer;
+  color: inherit;
+  text-align: center;
+}
+
+@media (min-width: 480px) {
+  .sbw-browser-support-modal .sbw-container .sbw-browsers .sbw-browser {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .sbw-browser-support-modal .sbw-container .sbw-browsers .sbw-browser {
+    width: 20%;
+  }
+}
+
+.sbw-browser-support-modal .sbw-container .sbw-browsers .sbw-browser .sbw-browser-logo {
+  min-height: 120px;
+}
+
+.sbw-browser-support-modal .sbw-container .sbw-browsers .sbw-browser .sbw-browser-logo img {
+  max-height: 100%;
+  max-width: 100%;
+  display: inline-block;
+}
+
+.sbw-browser-support-modal .sbw-container .sbw-browsers .sbw-browser .sbw-browser-logo h4 {
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.sbw-browser-support-modal .sbw-container .sbw-buttons {
+  text-align: center;
+}
+
+.sbw-browser-support-modal .sbw-container .sbw-buttons .sbw-btn {
+  padding: 10px 16px;
+  display: inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  font-size: 16px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+
+.sbw-browser-support-modal .sbw-container .sbw-buttons .sbw-btn.sbw-remind-later {
+  color: #fff;
+  background-color: #f0b535;
+}
+
+.sbw-browser-support-modal .sbw-container .sbw-buttons .sbw-btn.sbw-remind-later:hover {
+  background-color: #f0b958;
+}
+
+.sbw-browser-support-modal .sbw-container .sbw-buttons .sbw-btn.sbw-no-reminder {
+  color: #fff;
+  background-color: #d91f19;
+}
+
+.sbw-browser-support-modal .sbw-container .sbw-buttons .sbw-btn.sbw-no-reminder:hover {
+  background-color: #d9534f;
+}

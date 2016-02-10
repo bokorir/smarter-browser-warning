@@ -1,0 +1,108 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Smarter Browser Warning\n"
+"POT-Creation-Date: 2016-02-10 18:49+0100\n"
+"PO-Revision-Date: 2016-02-10 18:49+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: smarter-browser-warning.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-smarter-browser-warning-admin.php:85
+msgid "General Configuration"
+msgstr ""
+
+#: admin/class-smarter-browser-warning-admin.php:92
+msgid "Modal Title"
+msgstr ""
+
+#: admin/class-smarter-browser-warning-admin.php:105
+msgid "Modal Headline"
+msgstr ""
+
+#: admin/class-smarter-browser-warning-admin.php:118
+msgid "Modal Text"
+msgstr ""
+
+#: admin/class-smarter-browser-warning-admin.php:131
+msgid "Title Color"
+msgstr ""
+
+#: admin/class-smarter-browser-warning-admin.php:144
+msgid "Headline Color"
+msgstr ""
+
+#: admin/class-smarter-browser-warning-admin.php:157
+msgid "Text Color"
+msgstr ""
+
+#: admin/class-smarter-browser-warning-admin.php:170
+msgid "Minimum Browser Requirements"
+msgstr ""
+
+#: admin/class-smarter-browser-warning-admin.php:177
+msgid "Internet Explorer"
+msgstr ""
+
+#: admin/class-smarter-browser-warning-admin.php:468
+#, php-format
+msgid "Internet Explorer %d"
+msgstr ""
+
+#: includes/class-smarter-browser-warning.php:223
+msgid "Oops..."
+msgstr ""
+
+#: includes/class-smarter-browser-warning.php:224
+msgid "It looks like you're using an outdated browser!"
+msgstr ""
+
+#: includes/class-smarter-browser-warning.php:225
+msgid ""
+"Our website has detected that you're using an outdated browser. This means "
+"that our website may not function at its best and certain features may be "
+"restricted in access. We suggest that you upgrade your browser for free by "
+"using the links below."
+msgstr ""
+
+#: public/class-smarter-browser-warning-public.php:182
+#: public/class-smarter-browser-warning-public.php:183
+msgid "Remind me later"
+msgstr ""
+
+#: public/class-smarter-browser-warning-public.php:186
+#: public/class-smarter-browser-warning-public.php:187
+msgid "No, do not remind me again"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Smarter Browser Warning"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://smarter.uk.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Show warning popup for not supported browsers."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Robert Bokori"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://smarter.uk.com/"
+msgstr ""
