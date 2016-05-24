@@ -136,14 +136,14 @@ class Smarter_Browser_Warning_Public {
 
 					<a class="sbw-browser sbw-chrome" href="https://www.google.com/intl/en_uk/chrome/browser/" title="Google Chrome" target="_blank" rel="nofollow">
 						<figure class="sbw-browser-logo">
-							<img src="<?php echo plugins_url( $this->plugin_name . "/public/images/chrome.png" ); ?>">
+							<img src="<?php echo plugins_url( "/images/chrome.png", __FILE__ ); ?>">
 						</figure>
 						<h4>Google Chrome</h4>
 					</a>
 
 					<a class="sbw-browser sbw-firefox" href="http://www.mozilla.org/en-GB/firefox/new/" title="Mozilla Firefox" target="_blank" rel="nofollow">
 						<figure class="sbw-browser-logo">
-							<img src="<?php echo plugins_url( $this->plugin_name . "/public/images/firefox.png" ); ?>">
+							<img src="<?php echo plugins_url( "/images/firefox.png", __FILE__ ); ?>">
 						</figure>
 						<h4>Mozilla Firefox</h4>
 					</a>
@@ -152,14 +152,14 @@ class Smarter_Browser_Warning_Public {
 
 					<a class="sbw-browser sbw-ie" href="http://windows.microsoft.com/en-GB/internet-explorer/download-ie" title="Internet Explorer" target="_blank" rel="nofollow">
 						<figure class="sbw-browser-logo">
-							<img src="<?php echo plugins_url( $this->plugin_name . "/public/images/internet_explorer.png" ); ?>">
+							<img src="<?php echo plugins_url( "/images/internet_explorer.png", __FILE__ ); ?>">
 						</figure>
 						<h4>Internet Explorer</h4>
 					</a>
 
 					<a class="sbw-browser sbw-opera" href="http://www.opera.com/download" title="Opera" target="_blank" rel="nofollow">
 						<figure class="sbw-browser-logo">
-							<img src="<?php echo plugins_url( $this->plugin_name . "/public/images/opera.png" ); ?>">
+							<img src="<?php echo plugins_url( "/images/opera.png", __FILE__ ); ?>">
 						</figure>
 						<h4>Opera</h4>
 					</a>
@@ -168,7 +168,7 @@ class Smarter_Browser_Warning_Public {
 
 					<a class="sbw-browser sbw-safari" href="http://support.apple.com/downloads/#internet" title="Safari" target="_blank" rel="nofollow">
 						<figure class="sbw-browser-logo">
-							<img src="<?php echo plugins_url( $this->plugin_name . "/public/images/safari.png" ); ?>">
+							<img src="<?php echo plugins_url( "/images/safari.png", __FILE__ ); ?>">
 						</figure>
 						<h4>Safari</h4>
 					</a>
