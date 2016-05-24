@@ -9,7 +9,7 @@
  * Plugin Name:       Smarter Browser Warning
  * Plugin URI:        http://smarter.uk.com
  * Description:       Show warning popup for not supported browsers.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Robert Bokori
  * Author URI:        http://smarter.uk.com/
  * License:           GPL-2.0+
